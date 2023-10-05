@@ -1,0 +1,229 @@
+<!--Doctype should be mentioned on the first line of code-->
+<!DOCTYPE html>
+<!--start the code with html tag, lang is the attribute used to describe the language used in our code-->
+<html lang="en">
+<!--head tag contains the info and profile of our project-->
+   <head>
+      <meta charset="UTF-8">
+
+      <meta name="author" content="Mohamed aslam">       
+
+      <meta name="description" content="This page contain all the basics of html that I am going to learn">
+
+      <title> WELCOME PAGE</title><!-- title tag contains the name of the project that showen in webpage tab-->
+
+      <link rel="stylesheet" href="main.css"
+      type="text/css"><!--link tag is used to compile other file with the html-->
+
+   </head>
+
+
+
+   <!--Body tag is contains the codes that are showen in the webpage-->
+   <body>
+     <header>
+      <h1>Learn about html</h1>
+      <!--h1 tag is a heading tag, it usualy contains the heading of the contenet-->
+
+
+      <!--img element is a selfclosing element used to add images in our web images
+   src attribute is to add the image file and alt attirbute is a describtion that appears when image can't loaded  -->
+
+   
+    <hr>
+
+      <nav aria-label="primary navigator">
+         <ul>
+           <li><a href="#why">Purpose of html</a></li>
+           <li><a href="#learn">how to learn html easier</a></li>
+           <li><a href="#Frontend">Frontend development</a></li>
+         </ul>
+      </nav>
+    </header>
+
+
+
+      <hr><!--horizontal row:give one straight horizontal line in the page-->
+
+      
+<main>
+      <section id="why">
+       <h2>I'm ready to learn html</h2>
+      <!--h2 tag also a heading tag but the font size is smaller than the h1 and it used for sub heading-->
+   <img src="/img/logo2.jpg" alt="I design and develop experiences that make people's lives simple." title="the web application" width="485" height="588" loading="lazy">
+   <figure>
+   <figcaption>"I design and develop experiences that make people's lives simple."</figcaption>
+   </figure>
+   <code>&lt;&lt;&lt;Hello world&gt;&gt;&gt;</code>  
+
+<h3>Learning to code is fun</h3>
+      <p>Why should we learn html:<!--Paragraph(p) tag contains the content of our page-->
+
+
+         <br>HTML is a base of an webpage <!--break tag is used to bring text into next line -->
+
+
+         <br>it is used to structure the web page
+      </p>
+    </section>
+   </main>
+
+
+
+
+   <article id="learn">
+      <h3>How to make learning html easier</h3>
+      <!--h3 tag is a subheading tag, its font size is smaller than h2 tag,It goes until h6-->
+<figure>
+   <img src="/img/IMG1.jpg" alt="web developer" title="the web application" loading="lazy" width="450" height="350">
+</figure>
+
+
+      <p>learning html is fundamental to build a web page. To make it easier</p>
+   
+      <dl>      
+         <dt>Make a schedule</dt>
+         <dd>Use resourses from <abbr title="Mozilla developer network">MDN</abbr></dd>
+      </dl>
+   </article>
+<aside>
+   <details>
+      <summary>Disclaimer</summary>
+      <ul>
+         <li>This page is created for learning purpose only</li>
+         <li>Some of this might not work for you</li>
+         <li>Please do your own research before you want pursue web development</li>
+      </ul>
+   </details>
+</aside> 
+<br>
+
+    <table>
+      <caption id="Frontend"><mark>Frontend development</mark></caption>
+   <thead>
+      <tr>
+         <th>&nbsp;</th>
+         <th scope="col">Language used</th>
+         <th scope="col">Purpose</th>
+         <th scope="col">Everyday schedule</th>
+      </tr>
+   </thead>
+   <tbody>
+      <tr>
+         <th scope="row">no.1</th>
+         <td>HTML</td>
+         <td>To define structure of the web page</td>
+         <td><time datetime="12:00">12:00pm</time>-<time datetime="17:00">5:00pm</time></td>
+      </tr>
+      <tr>
+         <th scope="row">no.2</th>
+         <td>CSS</td>
+         <td>To style the web page</td>
+         <td><time datetime="17:00">5:00pm</time>-<time datetime="20:00">8:00pm</time></td>
+      </tr>
+      <tr>
+         <th scope="row" rowspan="2">no.3</th>
+         <td rowspan="2">Java script</td>
+         <td>To add functionalities to our web page</td>
+          <td rowspan="2"><time datetime="20:00">8:00pm</time>-<time datetime="00:00">12:00am</time></td>
+         <tr>
+            <td>it plays a main role in web development</td>
+         </tr>
+
+
+      <tr>
+         <td colspan="4">After learning all of this do some projests and move to back end development</td>
+      </tr>
+   </tbody>
+    </table>
+       
+  
+      <hr>
+<article id="contact">
+   <h2>Contact me</h2>
+   <p>I'd really like to hear from you!</p>
+   <form action="https://httpbin.org/get" method="get">
+      <fieldset>
+         <legend>Personal Informations</legend>
+
+      <label for="firstname">Frist name</label>
+      <input type="text" name="firstname" id="firw3cstname" placeholder="Mohamed" autofocus required>
+      <label for="lastname">Last name</label>
+      <input type="text" name="lastname" id="lastname" placeholder="Aslam" required>
+
+      <p>
+      <label for="password">password</label>
+      <input type="password" name="password" id="password" placeholder="Create password" required>
+      </p>
+      <p>
+         <label for="date-of-birth">Date of birth</label>
+          <input type="number" name="year" id="year" min="1980" max="2050" step="1" value="2000">
+          <input type="number" name="date" id="date" min="01" max="31"
+      step="1" value="1">
+          <select name="months" id="months" multiple size="3">
+            <optgroup label="months">
+               <option value="january" selected>Jan</option>
+               <option value="febraury">Feb</option>
+               <option value="march">March</option>
+               <option value="april">April</option>
+               <option value="may">May</option>
+               </optgroup>
+              
+          </select>
+      </p>
+  <!--  <p>
+      <label for="date of birth">Date of birth</label>
+      <input type="number" name="year" id="year" min="1980" max="2050"
+      step="1" value="2000">
+      <input type="number" name="date" id="date" min="01" max="31"
+      step="1" value="1">
+      <input type="text" name="months" id="months" list="months-list">
+      <datalist id="months-list">
+      <option value="january" selected>
+      <option value="febraury">
+      <option value="march">
+      <option value="april">
+      <option value="may">
+      </datalist>
+   </p> -->
+       </fieldset>
+       <br>
+       <fieldset>
+         <legend>what is your favorite food?</legend>
+         <input type="radio" name="food" id="briyani" value="briyani">
+         <label for="briyani">Briyani</label>
+         <input type="radio" name="food" id="pulav" value="pulav">
+         <label for="pulav">Pulav rice with mutton curry</label>
+         <input type="radio" name="food" id="veg" value="veg">
+         <label for="veg"> Jumbo Veg meals</label>
+       </fieldset>
+       <br>
+       <fieldset>
+         <legend>which place would you prefer?</legend>
+         <input type="checkbox" name="place" id="house" value="house">
+         <label for="house">House</label>
+         <input type="checkbox" name="place" id="get-together" value="get-together">
+         <label for="get-together">get together</label>
+         <input type="checkbox" name="place" id="friends" value="friends">
+         <label for="friends"> friends house</label>
+       </fieldset>
+       <br>
+       <fieldset>
+         <legend>Please give your feedback</legend>
+         <label for="message">Feedback:</label>
+         <br> 
+         <textarea name="message" id="message" cols="30" rows="10"></textarea>
+         <br>
+         <button type="submit">Click herer to submit</button>
+         <button type="reset">Reset</button>
+       </fieldset>
+   </form>
+</article>
+      <footer>
+      <p>
+      &lt;&lt;&lt;&copy;<a href="about.html">Mohamed Aslam</a>&gt;&gt;&gt;</p>
+<hr>
+      <a href="#">Back to top</a>
+      </footer>
+   </body>
+</html>
